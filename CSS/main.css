@@ -1,0 +1,79 @@
+/* public styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    direction: ltr;
+}
+.container{
+    width: 80%;
+    margin: auto; 
+}
+
+/* navbar styles */
+
+.navbar{
+    width: 100%;
+    background-color: black;
+}
+.navbar .container{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;  
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 40%;
+
+}
+.logo img{
+    width:50%;
+    display: block;
+}
+.list ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.list ul li a{
+    color: aliceblue;
+    text-transform: uppercase;
+    text-decoration-line: none;
+}
+
+/* portfilo styles */
+
+.portfilo{
+    background-color:cornsilk;
+    text-align: center;
+}
+.portfilo h2 {
+    text-transform: uppercase;
+    margin-top: 5px;;
+}
+.portfilo h2, .portfilo p {
+    margin-bottom: 5px;;
+}
+
+.items {
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 5px;
+}
+.item{
+    width:32%;
+    flex-grow: 1;
+}
+
+.item img{
+    width:100%;
+    display: block;
+}
